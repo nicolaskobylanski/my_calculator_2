@@ -23,6 +23,9 @@
                          <button onclick="cube()"> x^3 </button>
 
 			<button onclick="power_4()"> x^4</button>
+
+			<button onclick="sine()"> sin </button>
+
                  </p>
 
                  <script type="text/javascript">
@@ -43,6 +46,13 @@
 
                          }
 
+			function sine() {
+
+                                  var num = document.getElementById("n1");
+
+                                  num.value = Math.sin(num.value);
+
+                         }
                  </script>
 
         </body>
